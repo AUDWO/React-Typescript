@@ -2,10 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import WordRelay from "./WordRelay";
-import NumberBaseball from "./NumberBaseball";
+import ResponseCheck from "./components/ResponseCheck";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
-root.render(<NumberBaseball />);
+root.render(<ResponseCheck />);

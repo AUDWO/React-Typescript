@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef, useState, useCallback } from "react";
-import { TryInfo } from "./types";
+import { TryInfo } from "../types";
 import Try from "./Try";
 
 const getNumbers = () => {
@@ -55,6 +55,7 @@ const NumberBaseball = () => {
           }
         } else {
           console.log("답은", answer.join());
+          console.log(tries);
           for (let i = 0; i < 4; i += 1) {
             if (answerArray[i] === answer[i]) {
               console.log("strike", answerArray[i], answer[i]);

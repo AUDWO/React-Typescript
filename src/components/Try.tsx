@@ -1,5 +1,5 @@
 import React from "react";
-import { TryInfo } from "./types";
+import { TryInfo } from "../types";
 
 const Try: React.FC<{ tryInfo: TryInfo }> = ({ tryInfo }) => {
   return (
